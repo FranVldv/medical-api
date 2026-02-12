@@ -1,0 +1,27 @@
+# --- Dependencias (Lo más pesado) ---
+node_modules/
+
+# --- Build de producción (Se genera solo) ---
+dist/
+
+# --- Variables de entorno (Secretos) ---
+.env
+.env.test
+.env.production
+
+# --- Logs y errores ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Archivos de sistema operativo (Basura) ---
+.DS_Store
+Thumbs.db
+
+# --- Configuración de editor (Personal) ---
+.vscode/
+.idea/
+
+# --- Tests ---
+coverage/
